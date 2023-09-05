@@ -1,0 +1,14 @@
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\bin\Debug\netcoreapp3.1\TrabalhoNP2.exe
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\bin\Debug\netcoreapp3.1\TrabalhoNP2.deps.json
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\bin\Debug\netcoreapp3.1\TrabalhoNP2.runtimeconfig.json
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\bin\Debug\netcoreapp3.1\TrabalhoNP2.runtimeconfig.dev.json
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\bin\Debug\netcoreapp3.1\TrabalhoNP2.dll
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\bin\Debug\netcoreapp3.1\TrabalhoNP2.pdb
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\obj\Debug\netcoreapp3.1\TrabalhoNP2.csproj.AssemblyReference.cache
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\obj\Debug\netcoreapp3.1\TrabalhoNP2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\obj\Debug\netcoreapp3.1\TrabalhoNP2.AssemblyInfoInputs.cache
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\obj\Debug\netcoreapp3.1\TrabalhoNP2.AssemblyInfo.cs
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\obj\Debug\netcoreapp3.1\TrabalhoNP2.csproj.CoreCompileInputs.cache
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\obj\Debug\netcoreapp3.1\TrabalhoNP2.dll
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\obj\Debug\netcoreapp3.1\TrabalhoNP2.pdb
+C:\Users\mahcl\Downloads\TrabalhoNP2\TrabalhoNP2\obj\Debug\netcoreapp3.1\TrabalhoNP2.genruntimeconfig.cache
