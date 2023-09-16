@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TrabalhoNP2
+namespace PIM_III
 {
     class Descontos
     {

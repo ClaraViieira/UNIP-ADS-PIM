@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace TrabalhoNP2
+namespace PIM_III
 {
     class Program
     {
@@ -106,7 +106,7 @@ namespace TrabalhoNP2
             var horasExtras = ctrProventos.CalcularHorasExtras(proventos, funcionarios);
             var adicionalNoturno = ctrProventos.CalcularAdicionalNoturno(proventos, funcionarios);
 
-            descontos.SalarioBruto = funcionarios.SalarioBase + comissao + horasExtras + adicionalNoturno; 
+            descontos.SalarioBruto = funcionarios.SalarioBase + comissao + horasExtras + adicionalNoturno;
 
             var inss = ctrDescontos.CalcularINSS(descontos);
             var irrf = ctrDescontos.CalcularIRRF(descontos);

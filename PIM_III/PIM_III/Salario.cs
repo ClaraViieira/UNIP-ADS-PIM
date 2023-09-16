@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TrabalhoNP2
+namespace PIM_III
 {
     class Salario
     {
