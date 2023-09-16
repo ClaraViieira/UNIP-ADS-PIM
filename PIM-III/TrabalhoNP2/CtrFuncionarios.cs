@@ -8,7 +8,7 @@ namespace TrabalhoNP2
     {
         public void PrintarDadosFuncionarios(Funcionarios funcionarios)
         {
-            Console.WriteLine("DADOS DO FUNCIONÁRIO" + "\n\n" +
+            Console.WriteLine("DADOS DO FUNCIONÁRIO" + 
                               "Nome: " + funcionarios.Nome + "\n" +
                               "CPF: " + funcionarios.CPF + "\n" +
                               "RG: " + funcionarios.RG + "\n" +
