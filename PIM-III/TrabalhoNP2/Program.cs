@@ -10,6 +10,7 @@ namespace TrabalhoNP2
             Funcionarios funcionarios = new Funcionarios();
             CtrFuncionarios ctrFuncionarios = new CtrFuncionarios();
             ContaBancaria contaBancaria = new ContaBancaria();
+            CtrContaBancaria ctrContaBancaria = new CtrContaBancaria();
             Proventos proventos = new Proventos();
             CtrProventos ctrProventos = new CtrProventos();
             Descontos descontos = new Descontos();
@@ -124,7 +125,7 @@ namespace TrabalhoNP2
             {
                 Console.Clear();
                 Console.WriteLine("ESCOLHA UMA DAS OPÇÕES ABAIXO");
-                Console.WriteLine("1 - Dados Funcionário");
+                Console.WriteLine("1 - Dados Funcionário e Conta Bancária");
                 Console.WriteLine("2 - Descrição Folha de Pagamento");
                 Console.WriteLine("3 - Salário Líquido");
                 Console.WriteLine("4 - Encerrar");
@@ -132,7 +133,8 @@ namespace TrabalhoNP2
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        ctrFuncionarios.PrintarDadosFuncionarios(funcionarios, contaBancaria);
+                        ctrFuncionarios.PrintarDadosFuncionarios(funcionarios);
+                        ctrContaBancaria.PrintarDadosContaBancaria(contaBancaria);
                         break;
                     case "2":
                         Console.WriteLine("PROVENTOS: " + "\n" +
@@ -149,7 +151,7 @@ namespace TrabalhoNP2
                         $"Vale Refeição: " + valeRefeicao.ToString("C", CultureInfo.InvariantCulture));
                         break;
                     case "3":
-                        ctrSalario.SalarioFinal(salario, funcionarios, contaBancaria);
+                        ctrSalario.SalarioFinal(salario);
                         break;
                     case "4":
                         exbirMenu = false;

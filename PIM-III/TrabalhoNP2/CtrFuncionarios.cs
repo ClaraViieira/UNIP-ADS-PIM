@@ -6,7 +6,7 @@ namespace TrabalhoNP2
 {
     class CtrFuncionarios
     {
-        public void PrintarDadosFuncionarios(Funcionarios funcionarios, ContaBancaria contaBancaria)
+        public void PrintarDadosFuncionarios(Funcionarios funcionarios)
         {
             Console.WriteLine("DADOS DO FUNCIONÁRIO" + "\n\n" +
                               "Nome: " + funcionarios.Nome + "\n" +
@@ -20,11 +20,7 @@ namespace TrabalhoNP2
                               "Título de eleitor: " + funcionarios.TituloEleitor + "\n" +
                               "Reservista: " + funcionarios.Reservista + "\n" +
                               "Salário: " + funcionarios.SalarioBase + "\n" +
-                              "Cargo: " + funcionarios.CargoFunc + "\n\n" +
-                              "DADOS DA CONTA" + "\n\n" +
-                              "Banco: " + contaBancaria.Banco + "\n" +
-                              "Número da Agência: " + contaBancaria.Agencia + "\n" +
-                              "Núnero da Conta: " + contaBancaria.Conta);
+                              "Cargo: " + funcionarios.CargoFunc);
         }
     }
 }

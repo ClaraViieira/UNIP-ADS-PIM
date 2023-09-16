@@ -4,10 +4,9 @@ namespace TrabalhoNP2
 {
     class CtrSalario
     {
-        public void SalarioFinal(Salario salario, Funcionarios funcionario, ContaBancaria contaBancaria)
+        public void SalarioFinal(Salario salario)
         {
-            Console.WriteLine($"Pagamento no valor de {salario.SalarioLiquido.ToString("C")} realizado na Banco {contaBancaria.Banco}, " +
-                $"agência {contaBancaria.Agencia}, conta {contaBancaria.Conta} do(a) funcionário(a) {funcionario.Nome}");
+            Console.WriteLine($"Salário Líquido: {salario.SalarioLiquido.ToString("C")}");
         }
     }
 }
